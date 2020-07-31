@@ -1,0 +1,262 @@
+/* reset */
+/* main variables */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  font-family: "arima_koshi", sans-serif;
+  background-color: #FFF;
+  min-height: 100%;
+  position: relative; }
+
+/*MAIN*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px; }
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none; }
+
+input,
+textarea {
+  color: #333;
+  font-family: Arial, sans-serif;
+  outline: none;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none; }
+
+input[type="button"],
+input[type="submit"],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: inherit; }
+
+td {
+  margin: 0px;
+  padding: 0px; }
+
+form {
+  padding: 0px;
+  margin: 0px; }
+
+a {
+  color: #1A183D;
+  -webkit-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: pointer; }
+
+a,
+span,
+div,
+button {
+  outline: none !important; }
+
+ul {
+  margin: 0;
+  list-style: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'arima_koshi';
+  src: url("../fonts/arimakoshi-bold-webfont.eot");
+  src: url("../fonts/arimakoshi-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arimakoshi-bold-webfont.woff2") format("woff2"), url("../fonts/arimakoshi-bold-webfont.woff") format("woff"), url("../fonts/arimakoshi-bold-webfont.ttf") format("truetype"), url("../fonts/arimakoshi-bold-webfont.svg#arima_koshibold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'arima_koshi';
+  src: url("../fonts/arimakoshi-regular-webfont.eot");
+  src: url("../fonts/arimakoshi-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arimakoshi-regular-webfont.woff2") format("woff2"), url("../fonts/arimakoshi-regular-webfont.woff") format("woff"), url("../fonts/arimakoshi-regular-webfont.ttf") format("truetype"), url("../fonts/arimakoshi-regular-webfont.svg#arima_koshiregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 20px 0; }
+
+.btn_my-style {
+  border: 1px solid #000;
+  color: #423d3d;
+  font-size: 14px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.btn-lg_my-style {
+  background-color: #46f3e5;
+  color: #ecf00b;
+  -webkit-box-shadow: 2px -3px 10px 1px #ecf00b;
+          box-shadow: 2px -3px 10px 1px #ecf00b;
+  border-radius: 10px;
+  -webkit-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s; }
+  .btn-lg_my-style:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transition: all 0.15s;
+    -o-transition: all 0.15s;
+    transition: all 0.15s;
+    color: #fff; }
+
+.btn-primary_my-style {
+  border-radius: 50%;
+  padding: 22px 5px; }
+
+.btn-secondary_my-style {
+  border-radius: 18px;
+  font-size: 18px;
+  padding: 5px 20px;
+  color: #d1cfcf; }
+
+/*
+================================================================================
+|                                     CONTENT                                   |
+================================================================================
+*/
+.main-wrapper {
+  margin: 0 17px;
+  max-width: 1440px; }
+  @media screen and (min-width: 1440px) {
+    .main-wrapper {
+      margin: 0 auto; } }
+
+.content .container-fluid {
+  padding: 0; }
+
+.content .title {
+  margin-bottom: 15px; }
+
+.hotel-card {
+  margin-bottom: 40px; }
+  .hotel-card__photo {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden; }
+    .hotel-card__photo img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .hotel-card__location {
+    color: #ca7f07;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600; }
+  .hotel-card__location-img {
+    width: 10px;
+    height: auto;
+    margin-right: 5px;
+    fill: #ca7f07; }
+  .hotel-card__name {
+    font-size: 18px;
+    font-weight: 500; }
+  .hotel-card__rating {
+    margin: 10px 0 10px -3px; }
+    .hotel-card__rating-svg {
+      fill: #ffb500;
+      stroke-width: 3px;
+      stroke: #ffb500;
+      width: 20px;
+      height: auto;
+      margin-right: -7px; }
+      .hotel-card__rating-svg_no-bg {
+        fill-opacity: 0;
+        stroke: #929292; }
+  .hotel-card__description {
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-bottom: 10px; }
+  .hotel-card__item {
+    color: #6d6d6d;
+    font-size: 14px;
+    margin-bottom: 5px; }
+    .hotel-card__item span {
+      color: #000;
+      font-weight: 600; }
+  .hotel-card__price {
+    font-size: 22px;
+    color: #5f5d5d;
+    font-weight: 200;
+    text-align: right; }
+    .hotel-card__price span {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase; }
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
